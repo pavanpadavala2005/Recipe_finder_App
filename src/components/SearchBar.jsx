@@ -31,6 +31,8 @@ const SearchBar = () => {
 		if (e.key === "Enter") {
 			e.preventDefault();
 			handleSearch(e);
+			inputRef.current.blur();
+
 		}
 	};
 	return (
