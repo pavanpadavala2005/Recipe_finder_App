@@ -57,7 +57,7 @@ const CartItem = ({ cartItem }) => {
 				/>
 				<input
 					type="number"
-					className="bg-transparent text-center border font-bold rounded py-2 md:py-1 focus:outline-none w-1/4 text-sm md:w-1/6 md:text-lg shadow-sm"
+					className="bg-transparent text-center border font-bold rounded py-2 md:py-1 focus:outline-none w-full text-sm md:w-1/2 md:text-lg shadow-sm"
 					value={itemCount}
 					onChange={(e) => setItemCount(Number(e.target.value))}
 				/>
